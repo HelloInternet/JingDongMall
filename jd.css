@@ -186,3 +186,319 @@ form{
 .hotwords a{
     margin-right:7px;
 }
+.bar{
+    width:100%;
+    border-bottom:2px solid #b1191a;
+}
+.bar .wid{
+    height:44px;
+    position: relative;
+}
+.bar-class{
+    float: left;
+}
+.bar-class a{
+    color: #fff;
+}
+.bar-first{
+    display: block;
+    height:44px;
+    width:190px;
+    padding:0 10px;
+    background-color: #b1191a;
+    color: #fff;
+    font:400 15px/44px "Microsoft YaHei";
+}
+.bar-classify{
+    height:466px;
+    background-color: #c81623;
+    margin-top:2px;
+    width:210px;
+}
+.item{
+    height:31px;
+    color: #fff;
+    line-height:31px;
+    border-left:1px solid #b61d1d;
+}
+.item h3{
+    height:31px;
+    padding:0 10px;
+    font-size:14px;
+    position: absolute;
+}
+.item i{
+    float: right;
+    width:4px;
+    margin-right:14px;
+    font:400 9px/14px consolas;
+    margin-top:9px;
+}
+.item h3 a{
+    color: #fff;
+}
+.bar-nav{
+    float: left;
+}
+.bar-nav a{
+    height:44px;
+    padding:0 17px 0 20px;
+    text-align: center;
+    font:400 16px/44px "Microsoft YaHei";
+    color: #333;
+}
+.bar-nav a:hover{
+    color: #c81623;
+}
+.main{
+    width:100%;
+}
+.main .wid{
+    height:466px;
+}
+#igs{
+    width:750px;
+    position: relative;
+    float: left;
+    padding:12px 10px 0 10px;
+}
+#igs .ig{
+    display: block;
+    position: absolute;
+}
+.btn{
+    width:28px;
+    height:64px;
+    background-color:rgba(0,0,0,0.2);
+    color: #fff;
+    font-size:22px;
+    font-weight:400;
+    font-family:SimSun;
+    text-align: center;
+    line-height:64px;
+    position: absolute;
+    top:200px;
+    cursor: pointer;
+}
+.btn2{
+    left: 712px;
+}
+.tabs{
+    position: absolute;
+    top:440px;
+    left:310px;
+}
+.tab{
+    width:18px;
+    height:18px;
+    line-height: 18px;
+    background-color: #3e3e3e;
+    display: inline-block;
+    text-align: center;
+    border-radius: 100%;
+    cursor: pointer;
+    color: #fff;
+    margin-right: 1px;
+}
+.bg{
+    background-color: #b61b1f;
+}
+.news{
+    float: right;
+    height:374px;
+    width:248px;
+    border:1px solid #e4e4e4;
+    background-color: rgba(255,255,255,.85);
+}
+.news .mt{
+    height:32px;
+    line-height: 32px;
+    padding:0 15px;
+    border-bottom:1px dotted #e8e8e7;
+}
+.mt h2{
+    font-size:16px;
+    float: left;
+}
+.more{
+    float: right;
+    line-height:33px;
+    font-family:Consolas;
+}
+.mc{
+    height:122px;
+    padding:8px 0 0 15px;
+}
+.mc ul li span{
+    font-weight:700;
+    margin-right: 5px;
+}
+.mc ul li{
+    width:210px;
+    height:24px;
+}
+.header-icon{
+    width:248px;
+    height:209px;
+    border-top:1px solid #e4e4e4;
+}
+.header-icon ul{
+    width:260px;
+    height:209px;
+    overflow: hidden;
+}
+.header-icon li{
+    float: left;
+    width:62px;
+    height:70px;
+    border-right:1px solid #e8e8e7;
+    border-bottom:1px solid #e8e8e7;
+}
+.header-icon li:nth-child(4),.header-icon li:nth-child(8),.header-icon li:nth-child(12){
+    border-right:none;
+}
+.header-icon li a{
+    display: block;
+    padding-top:13px;
+    line-height:28px;
+    text-align: center;
+}
+.ci-left{
+    display: block;
+    width:25px;
+    height:25px;
+    margin:0 auto 3px;
+}
+.ci-left1{
+    background: url(image/57620a6fN77b2b8af.png) no-repeat;
+}
+.ci-left2{
+    background: url(image/57620a6fN77b2b8af.png) no-repeat 0 -25px;
+}
+.ci-left3{
+    background: url(image/57620a6fN77b2b8af.png) no-repeat 0 -50px;
+}
+.ci-left4{
+    background: url(image/57620a6fN77b2b8af.png) no-repeat 0 -75px;
+}
+.ci-left5{
+    background: url(image/57620a6fN77b2b8af.png) no-repeat 0 -100px;
+}
+.ci-left6{
+    background: url(image/57620a6fN77b2b8af.png) no-repeat 0 -125px;
+}
+.ci-left7{
+    background: url(image/57620a6fN77b2b8af.png) no-repeat 0 -150px;
+}
+.ci-left8{
+    background: url(image/57620a6fN77b2b8af.png) no-repeat 0 -175px;
+}
+.ci-left9{
+    background: url(image/57620a6fN77b2b8af.png) no-repeat 0 -250px;
+}
+.ci-left10{
+    background: url(image/57620a6fN77b2b8af.png) no-repeat 0 -200px;
+}
+.ci-left11{
+    background: url(image/57620a6fN77b2b8af.png) no-repeat 0 -275px;
+}
+.ci-left12{
+    background: url(image/57620a6fN77b2b8af.png) no-repeat 0 -225px;
+}
+.valentine{
+    position: absolute;
+    right:69px;
+    top:568px;
+}
+.recommend{
+    width:100%;
+}
+.recommend .wid{
+    height:174px;
+    margin:10px auto;
+}
+.mta{
+    /*display: block;*/
+    float: left;
+    /*width:210px;*/
+    /*height:151px;*/
+    /*background:url(image/homebg.png) no-repeat -213px -136px;*/
+    /*text-indent: -10000px;*/
+}
+.jd-clock-wrap{
+    position: relative;
+    width:210px;
+    height:151px;
+    background:url(image/homebg.png) 0 -136px no-repeat;
+}
+.jd-clock{
+    position: absolute;
+    left:72px;
+    top:31px;
+    width:43px;
+    height:43px;
+    border-radius:50%;
+    border:7px solid #fff;
+}
+.jd-clock::before{
+    content: "";
+    position: absolute;
+    left:18px;
+    top:18px;
+    width:7px;
+    height:7px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.jd-clock .jd-clock-h{
+    position: absolute;
+    top:5px;
+    left:19px;
+    height:19px;
+    width:5px;
+    background-color: #fff;
+    border-radius: 2px;
+    transform: rotate(282.5deg);
+    transform-origin: 2.5px 16.5px;
+}
+.jd-clock .jd-clock-m{
+    position: absolute;
+    left:5px;
+    top:19px;
+}
+.jd-clock .jd-clock-m::after{
+    content: '';
+    position: absolute;
+    left:14px;
+    top:-17px;
+    width:5px;
+    height:21px;
+    background: #fff;
+    border-radius: 2px;
+    transform-origin: 2.5px 19.5px;
+    animation: tick-tock 20s steps(60,end) infinite;
+}
+.jd-clock .jd-clock-s{
+    position: absolute;
+    left:19px;
+    top:-6px;
+    width:5px;
+    height:28px;
+    transform-origin: bottom;
+    animation: tick-tock 10s linear infinite;
+}
+.jd-clock-s::after{
+    content: '';
+    position: absolute;
+    left:0;
+    top:0;
+    width:5px;
+    height:5px;
+    background-color: #5e5252;
+    border-radius: 50%;
+}
+@keyframes tick-tock {
+    to{
+        transform: rotate(360deg) translate3d(0,0,0);
+    }
+}

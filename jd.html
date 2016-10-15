@@ -5,10 +5,11 @@
     <title>京东（JD.COM）-综合网购首选-正品低价、品质保障、配送及时、轻松购物！</title>
     <link rel="icon" href="http://www.jd.com/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="jd.css"/>
+    <script src="jquery.js"></script>
     <script src="jd.js"></script>
 </head>
-<body style="height: 3000px;">
-<nav>
+<body>
+    <nav>
     <!--wid为中间固定宽度承载内容的dvi-->
     <div class="wid">
         <ul class="nav-left">
@@ -86,7 +87,7 @@
     </div>
 </nav>
 
-<header>
+    <header>
     <div class="wid">
         <div class="logo-jd">
             <a href="http://www.jd.com/">
@@ -120,8 +121,8 @@
         </div>
     </div>
 </header>
-<!--侧边分类导航-->
-<div class="bar">
+    <!--侧边分类导航-->
+    <div class="bar">
     <div class="wid">
         <div class="bar-class">
             <a href="https://www.jd.com/allSort.aspx" class="bar-first">全部商品分类</a>
@@ -134,72 +135,292 @@
                 </div>
                 <div class="item">
                     <h3>
-                        <a href="https://shouji.jd.com/">手机</a>、
-                        <a href="https://channel.jd.com/yunyingshang.html">运营商</a>、
-                        <a href="https://shuma.jd.com/">数码</a>
+                        <a href="https://shouji.jd.com/">手机</a>、<a href="https://channel.jd.com/yunyingshang.html">运营商</a>、<a href="https://shuma.jd.com/">数码</a>
                     </h3>
                     <i>&gt;</i>
                 </div>
                 <div class="item">
                     <h3>
-                        <a href="https://diannao.jd.com/">电脑</a>、
-                        <a href="https://diannao.jd.com/">办公</a>
+                        <a href="https://diannao.jd.com/">电脑</a>、<a href="https://diannao.jd.com/">办公</a>
                     </h3>
                     <i>&gt;</i>
                 </div>
                 <div class="item">
                     <h3>
-                        <a href="https://channel.jd.com/home.html">家居</a>、
-                        <a href="https://channel.jd.com/furniture.html">家具</a>、
-                        <a href="https://channel.jd.com/decoration.html">家装</a>、
-                        <a href="https://channel.jd.com/kitchenware.html">厨具</a>
+                        <a href="https://channel.jd.com/home.html">家居</a>、<a href="https://channel.jd.com/furniture.html">家具</a>、<a href="https://channel.jd.com/decoration.html">家装</a>、<a href="https://channel.jd.com/kitchenware.html">厨具</a>
                     </h3>
                     <i>&gt;</i>
                 </div>
                 <div class="item">
                     <h3>
-                        <a href="https://channel.jd.com/1315-1342.html">男装</a>、
-                        <a href="https://channel.jd.com/1315-1343.html">女装</a>、
-                        <a href="https://channel.jd.com/children.html">童装</a>、
-                        <a href="https://channel.jd.com/1315-1345.html">内衣</a>
+                        <a href="https://channel.jd.com/1315-1342.html">男装</a>、<a href="https://channel.jd.com/1315-1343.html">女装</a>、<a href="https://channel.jd.com/children.html">童装</a>、<a href="https://channel.jd.com/1315-1345.html">内衣</a>
                     </h3>
                     <i>&gt;</i>
                 </div>
                 <div class="item">
                     <h3>
-                        <a href="https://channel.jd.com/beauty.html">个护化妆</a>、
-                        <a href="https://channel.jd.com/1620-1625.html">清洁用品</a>、
-                        <a href="https://channel.jd.com/pet.html">宠物</a>
+                        <a href="https://channel.jd.com/beauty.html">个护化妆</a>、<a href="https://channel.jd.com/1620-1625.html">清洁用品</a>、<a href="https://channel.jd.com/pet.html">宠物</a>
                     </h3>
                     <i>&gt;</i>
                 </div>
                 <div class="item">
                     <h3>
-                        <a href="https://channel.jd.com/shoes.html">鞋靴</a>、
-                        <a href="https://channel.jd.com/bag.html">箱包</a>、
-                        <a href="https://channel.jd.com/jewellery.html">珠宝</a>、
-                        <a href="https://channel.jd.com/1672-2615.html">奢侈品</a>
+                        <a href="https://channel.jd.com/shoes.html">鞋靴</a>、<a href="https://channel.jd.com/bag.html">箱包</a>、<a href="https://channel.jd.com/jewellery.html">珠宝</a>、<a href="https://channel.jd.com/1672-2615.html">奢侈品</a>
                     </h3>
                     <i>&gt;</i>
                 </div>
                 <div class="item">
                     <h3>
-                        <a href="https://channel.jd.com/yundongcheng.html">运动</a>、
-                        <a href="https://channel.jd.com/outdoor.html">户外</a>、
-                        <a href="https://channel.jd.com/watch.html">钟表</a>
+                        <a href="https://channel.jd.com/yundongcheng.html">运动</a>、<a href="https://channel.jd.com/outdoor.html">户外</a>、<a href="https://channel.jd.com/watch.html">钟表</a>
                     </h3>
                     <i>&gt;</i>
                 </div>
                 <div class="item">
                     <h3>
-                        <a href="http://car.jd.com/">汽车</a>、
-                        <a href="https://che.jd.com/">汽车用品</a>
+                        <a href="http://car.jd.com/">汽车</a>、<a href="https://che.jd.com/">汽车用品</a>
+                    </h3>
+                    <i>&gt;</i>
+                </div>
+                <div class="item">
+                    <h3>
+                        <a href="https://baby.jd.com/">母婴</a>、<a href="https://channel.jd.com/toys.html">玩具乐器</a>
+                    </h3>
+                    <i>&gt;</i>
+                </div>
+                <div class="item">
+                    <h3>
+                        <a href="https://channel.jd.com/food.html">食品</a>、<a href="https://channel.jd.com/wine.html">酒类</a>、<a href="https://fresh.jd.com/">生鲜</a>、<a href="https://china.jd.com/">特产</a>
+                    </h3>
+                    <i>&gt;</i>
+                </div>
+                <div class="item">
+                    <h3>
+                        <a href="https://health.jd.com/">医药保健</a>
+                    </h3>
+                    <i>&gt;</i>
+                </div>
+                <div class="item">
+                    <h3>
+                        <a href="https://book.jd.com/">图书</a>、<a href="https://mvd.jd.com/">音像</a>、<a href="https://e.jd.com/ebook.html">电子书</a>
+                    </h3>
+                    <i>&gt;</i>
+                </div>
+                <div class="item">
+                    <h3>
+                        <a href="https://caipiao.jd.com/">彩票</a>、<a href="https://trip.jd.com/">旅行</a>、<a href="https://chongzhi.jd.com/">充值</a>、<a href="https://piao.jd.com/">票务</a>
+                    </h3>
+                    <i>&gt;</i>
+                </div>
+                <div class="item">
+                    <h3>
+                        <a href="https://licai.jd.com/">理财</a>、<a href="https://z.jd.com/">众筹</a>、<a href="https://baitiao.jd.com/">白条</a>、<a href="https://bao.jd.com/">保险</a>
                     </h3>
                     <i>&gt;</i>
                 </div>
             </div>
         </div>
+        <!--搜索框下的导航-->
+        <ul class="bar-nav">
+            <li>
+                <a href="https://channel.jd.com/fashion.html">服装城</a>
+                <a href="https://beauty.jd.com/">美妆馆</a>
+                <a href="https://chaoshi.jd.com/">京东超市</a>
+                <a href="https://fresh.jd.com/">生鲜</a>
+                <a href="https://www.jd.hk/">全球购</a>
+                <a href="https://red.jd.com/">闪购</a>
+                <a href="https://tuan.jd.com/">团购</a>
+                <a href="https://paimai.jd.com/">拍卖</a>
+                <a href="https://jr.jd.com/">金融</a>
+            </li>
+        </ul>
     </div>
 </div>
+
+    <div class="main">
+        <div class="wid">
+            <!--轮播图-->
+            <div id="igs">
+                <a href="https://sale.jd.com/act/MJ4gdtiyK6HUT.html?cpdad=1DLSUE" class="ig">
+                    <img src="image/580073afN2aac5a44.jpg">
+                </a>
+                <a href="https://sale.jd.com/act/G1JyoKXx6gN3Rh.html?cpdad=1DLSUE" class="ig">
+                    <img src="image/57fb3814N21792419.jpg">
+                </a>
+                <a href="https://sale.jd.com/act/oUPZ2e0b1OwRdTJ.html?cpdad=1DLSUE" class="ig">
+                    <img src="image/57f9b4ccN6cfa4383.jpg">
+                </a>
+                <a href="https://sale.jd.com/act/LlpBXkHGO3KdxmTo.html?cpdad=1DLSUE" class="ig">
+                    <img src="image/57ff0596N0b45da27.jpg">
+                </a>
+                <a href="https://sale.jd.com/act/NBUphajCL6.html?cpdad=1DLSUE" class="ig">
+                    <img src="image/57f9bfbfNe04b914c.jpg">
+                </a>
+                <a href="https://sale.jd.com/act/PBmA5cYfSZtVkO.html?cpdad=1DLSUE" class="ig">
+                    <img src="image/57fb3b00N9136db83.jpg">
+                </a>
+
+                <div class="btn btn1">&lt;</div>
+                <div class="btn btn2">&gt;</div>
+
+                <ul class="tabs">
+                    <li class="tab bg">1</li>
+                    <li class="tab">2</li>
+                    <li class="tab">3</li>
+                    <li class="tab">4</li>
+                    <li class="tab">5</li>
+                    <li class="tab">6</li>
+                </ul>
+            </div>
+
+            <div class="news">
+                <div class="mt">
+                    <h2>京东快报</h2>
+                    <div class="more">
+                        <a href="https://www.jd.com/moreSubject.aspx">更多 &gt;</a>
+                    </div>
+                </div>
+
+                <div class="mc">
+                    <ul>
+                        <li>
+                            <a href="https://demo.jr.jd.com/stock/1.0.0/html/accountGift4.html"><span>[特惠]</span>【特惠】20元话费直充券 开户</a>
+                        </li>
+                        <li>
+                            <a href="https://www.jd.com/news.aspx?id=30957"><span>[公告]</span>鲍勃·迪伦获诺奖 热销书可预订</a>
+                        </li>
+                        <li>
+                            <a href="https://sale.jd.com/act/d7YL5FWTxk.html"><span>[特惠]</span>周末十点半，觉主起来嗨</a>
+                        </li>
+                        <li>
+                            <a href="https://www.jd.com/news.aspx?id=30953"><span>[公告]</span>济宁大件运营中心开仓公告</a>
+                        </li>
+                        <li>
+                            <a href="https://sale.jd.com/act/THiXfDygau.html"><span>[特惠]</span>零食风暴，满99减50</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="header-icon">
+                    <ul>
+                        <li>
+                            <a href="http://chongzhi.jd.com/">
+                                <i class="ci-left ci-left1"></i>
+                                <span>话费</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://jipiao.jd.com/">
+                                <i class="ci-left ci-left2"></i>
+                                <span>机票</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://movie.jd.com/">
+                                <i class="ci-left ci-left3"></i>
+                                <span>电影票</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://game.jd.com/">
+                                <i class="ci-left ci-left4"></i>
+                                <span>游戏</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://caipiao.jd.com/">
+                                <i class="ci-left ci-left5"></i>
+                                <span>彩票</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://jiayouka.jd.com/">
+                                <i class="ci-left ci-left6"></i>
+                                <span>加油卡</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://hotel.jd.com/">
+                                <i class="ci-left ci-left7"></i>
+                                <span>酒店</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://train.jd.com/">
+                                <i class="ci-left ci-left8"></i>
+                                <span>火车票</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://z.jd.com/sceneIndex.html?from=jrscyn_20162">
+                                <i class="ci-left ci-left9"></i>
+                                <span>众筹</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://licai.jd.com/?from=jrscyn_20161">
+                                <i class="ci-left ci-left10"></i>
+                                <span>理财</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://giftcard.jd.com/market/index.action">
+                                <i class="ci-left ci-left11"></i>
+                                <span>礼品卡</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://baitiao.jd.com/?from=jrscyn_20160">
+                                <i class="ci-left ci-left12"></i>
+                                <span>白条</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="valentine">
+                <a href="https://sale.jd.com/act/nhY1ENwek0.html?cpdad=1DLSUE">
+                    <img src="image/57f9d5ecN95bccc45.jpg">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--今日推荐-->
+    <div class="recommend">
+        <div class="wid">
+            <div class="mta">
+                <div class="jd-clock-wrap">
+                    <div class="jd-clock">
+                        <div class="jd-clock-h"></div>
+                        <div class="jd-clock-m"></div>
+                        <div class="jd-clock-s"></div>
+                    </div>
+                </div>
+            </div>
+
+            <ul class="showhow">
+                <li>
+                    <a href="https://sale.jd.com/act/Oxp4vLQCaDl.html">
+                        <img src="image/57ed25a0Ne1f0728b.jpg">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://sale.jd.com/act/PFSQMZoTkeEVdcl.html?cpdad=1DLSUE">
+                        <img src="image/57fcb9e8N61df66d9.jpg">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://red.jd.com/redSelfSupport.html?cpdad=1DLSUE">
+                        <img src="image/57ff34aaNfa2165fc.jpg">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://jr.jd.com/buy/index?cpdad=1DLSUE">
+                        <img src="image/57fe0f27Nc8898147.jpg">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
