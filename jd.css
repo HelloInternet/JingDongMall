@@ -1,0 +1,188 @@
+a, b, body, div, em, font, form, h1, h2, h3, html, i, img,label, li, ol, p, small, span, strong, u, ul {
+    margin:0;
+    padding:0;
+}
+body{
+    color: #666;
+    font:12px/150% Arial,Verdana,"\5b8b\4f53";
+    background-color:#fff;
+}
+ul{
+    list-style-type:none;
+}
+img{
+    border:none;
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+    color: #666;
+}
+a:hover{
+    color: #c81623;
+}
+h2,h3{
+    font-family:"Microsoft YaHei";
+    font-weight:400;
+}
+h2{
+    font-size:20px;
+}
+.wid{
+    margin:0 auto;
+    width:1210px;
+}
+.red{
+    color: #c81623;
+}
+/*顶部导航*/
+nav{
+    /*width:100%;*/
+    background-color:#f1f1f1;
+}
+nav .wid{
+    height:30px;
+}
+.nav-left{
+    float:left;
+}
+.nav-left-button{
+    width:80px;
+    height:30px;
+    padding:0 5px 0 10px;
+    line-height:30px;
+}
+.nav-icon{
+    font-size:16px;
+    font-family:"Microsoft YaHei";
+    font-style: normal;
+    line-height:12px;
+}
+.nav-right{
+    float: right;
+}
+.nav-right li{
+    line-height:30px;
+    padding:0 2px;
+    float: left;
+}
+.nav-right-link{
+    margin-right:10px;
+}
+.nav-right .lines{
+    width:1px;
+    height:12px;
+    background-color:#ddd;
+    margin-top:9px;
+    padding:0;
+}
+.nav-right .nav-last{
+    padding:0 1px 0 2px;
+}
+.array{
+    padding:0 8px;
+}
+.array-button{
+    padding:0 8px;
+}
+.phone{
+    width:15px;
+    height:20px;
+    background: url(image/jd2015img.png);
+    float: left;
+    margin-top:5px;
+    margin-right:2px;
+}
+/*头部搜索*/
+header{
+    /*width:100%;*/
+}
+header .wid{
+    height:100px;
+}
+.logo-jd{
+    width: 362px;;
+    height:60px;
+    padding:20px 0;
+    float: left;
+}
+form{
+    float: left;
+    width:auto;
+    height:36px;
+    margin:25px 0 4px;
+    vertical-align: middle;
+}
+.text{
+    height:24px;
+    line-height:24px;
+    padding:4px;
+    margin-bottom:4px;
+    border-color: #b61d1d;
+    border-style:solid;
+    outline:0;
+    width:446px;
+    font-size:14px;
+    font-family:"Microsoft YaHei";
+}
+.button{
+    width:80px;
+    height:36px;
+    background-color: #b61d1d;
+    border:0;
+    vertical-align: top;
+    color: #fff;
+    font-family:"Microsoft YaHei";
+    font-size:16px;
+    line-height:1;
+    cursor: pointer;
+    padding:1px 4px 1px 2px;
+    position: relative;
+    left: -3px;
+}
+.cart{
+    float: right;
+    height:34px;
+    width: 139px;
+    line-height:34px;
+    text-align: center;
+    margin:25px 65px 0 0;
+    background-color: #f9f9f9;
+    border:1px solid #dfdfdf;
+}
+.cart-icon{
+    float: left;
+    background: url(image/jd2015img.png) 0 -58px no-repeat;
+    width:18px;
+    height:16px;
+    margin-top:9px;
+    margin-left:18px;
+}
+.bubble{
+    display: inline-block;
+    width:16px;
+    height:14px;
+    border-radius:7px 7px 7px 0;
+    background-color: #c81623;
+    color: #fff;
+    position: relative;
+    top:-14px;
+    left:-2px;
+}
+.cart-right{
+    color: #999;
+    position: relative;
+    left:-3px;
+    top:1px;
+}
+.cart i{
+    font:400 13px/13px SimSun;
+}
+.hotwords{
+    float: left;
+    height:20px;
+    line-height:20px;
+}
+.hotwords a{
+    margin-right:7px;
+}
