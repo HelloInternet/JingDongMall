@@ -37,7 +37,7 @@ h2{
 }
 /*顶部导航*/
 nav{
-    /*width:100%;*/
+    width:100%;
     background-color:#f1f1f1;
 }
 nav .wid{
@@ -95,7 +95,7 @@ nav .wid{
 }
 /*头部搜索*/
 header{
-    /*width:100%;*/
+    width:100%;
 }
 header .wid{
     height:100px;
@@ -690,15 +690,203 @@ form{
 }
 .hs-brands li{
     width:74px;
-    /*margin:0;*/
     height:57px;
     border-bottom:1px dashed #e0e0e0;
-    /*text-align: center;*/
 }
 .brands-left li{
     float: right;
     margin-right:5px;
 }
 .brands-right li{
-    margin-left:5px;
+    margin-left:7px;
 }
+.ad{
+    width:100%;
+}
+.ad .wid{
+    height:110px;
+    margin-bottom:30px;
+}
+.ad .wid ul{
+    height:125px;
+    width:1200px;
+    margin:0 auto;
+}
+.ad .wid ul li{
+    float: left;
+    width:400px;
+    overflow: hidden;
+}
+.f-one{
+    width:100%;
+}
+.f-one .wid{
+    height:737px;
+    margin:0 auto 30px;
+}
+.f-one .wid .mt{
+    border-bottom:1px solid #c81623;
+    height:36px;
+}
+.f-one .wid .mt h2{
+    position: relative;
+    color: #333;
+    padding-left:40px;
+    line-height:30px;
+    font-size:20px;
+}
+.f-one h2 i{
+    position: absolute;
+    top:2px;
+    left:0;
+    width:21px;
+    height:25px;
+    padding-right:10px;
+    font-size:13px;
+    color: #fff;
+    text-align: center;
+    font-style: normal;
+    background: url(image/product_home_1.0.0.png) no-repeat 0 0;
+}
+.f-one .tag{
+    float: right;
+    border:1px solid #ededed;
+    border-bottom:none;
+    height:34px;
+    line-height:34px;
+}
+.tag li{
+    float: left;
+    height:34px;
+}
+.tag li a{
+    float: left;
+    height:14px;
+    line-height:14px;
+    padding:0 16px 0 17px;
+    margin-top:11px;
+}
+.tag li:last-child{
+    margin-right:1px;
+}
+.tab-first{
+    border-right: 1px solid #ccc;
+}
+.main-first{
+    height:633px;
+    width:880px;
+    float: right;
+}
+.main-left{
+    height:632px;
+    width:439px;
+    float: left;
+    border-right:1px solid#ededed;
+}
+.main-left div{
+    height:157px;
+    border-bottom:1px solid #ededed;
+}
+.main-lattice{
+    height: 315px;
+    border-bottom:1px solid #ededed;
+}
+.main-lattice-left{
+    float: left;
+    height:632px;
+    border-right:1px solid #ededed;
+}
+.main-lattice-left li{
+    height:157px;
+    border-bottom:1px solid #ededed;
+}
+.banner{
+    height:474px;
+    width:327px;
+    position: relative;
+}
+.banner img{
+    height:474px;
+    width:328px;
+}
+.banner-ul{
+    position: relative;
+    padding-left:25px;
+    height:92px;
+    background: rgba(255,255,255,.5);
+    width:305px;
+    margin-top:-221px;
+}
+.banner-ul li{
+    width:100px;
+    float: left;
+    height:26px;
+    padding:10px 0;
+    font-size:14px;
+    line-height:26px;
+    font-family:"Microsoft YaHei";
+}
+.banner-ul li .myicon{
+    font-size: 20px;
+}
+.words{
+    height:128px;
+    border-bottom:1px solid #ededed;
+    width:328px;
+    position: relative;
+    background-color: #eaebf5;
+}
+.words li{
+    float: left;
+    width:135px;
+    padding:16px 0 0 25px;
+}
+.words li span{
+    display: block;
+    float: left;
+    margin-right:10px;
+    height:24px;
+}
+.bottom-one{
+    width:326px;
+    height:157px;
+    border:1px solid #ededed;
+    overflow: hidden;
+}
+.bottom-a{
+    display: block;
+    height:315px;
+    border-bottom:1px solid #ededed;
+}
+.bottom-a img{
+    height:315px;
+}
+.main-logo{
+    height:40px;
+    padding:13px 0;
+    margin-top:10px;
+    background-color: #f7f7f7;
+}
+.main-logo li{
+    float: left;
+    height: 40px;
+    width:120px;
+    text-align: center;
+}
+.logo-1{
+    border-left: 1px dotted #ccc;
+}
+.slogen{
+    width:100%;
+    background-color: #f5f5f5;
+}
+.slogen .wid{
+    height:54px;
+    padding:24px 0 15px;
+    margin-bottom:10px;
+    background: url(image/duokuai.png)
+}
+.map{
+    width:100%;
+}
+.map .wid
