@@ -31,6 +31,12 @@ $(function() {
         Show();
         ShowTimer();
     });
+
+    $('.showhow').children('li').hover(function(){
+        $('.showhow').siblings('.to').show();
+    },function(){
+        $('.showhow').siblings('.to').hide();
+    });
 });
 
 function Show(){
